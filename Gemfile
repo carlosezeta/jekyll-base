@@ -2,5 +2,6 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-:jekyll_plugins
-  jekyll-admin
+group :jekyll_plugins do
+  gem jekyll-admin
+end
